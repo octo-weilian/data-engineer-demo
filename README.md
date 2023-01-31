@@ -19,8 +19,12 @@ Demo Docker application with Kafka, Elasticsearch, Kibana and GeoServer
 5. Open a terminal and run docker-compose.yml
 `docker compose up`
 
-6. Open a second terminal and run the Kafka notifier with a topic named `weather`
+6. Open a second terminal and run the Kafka notifier with a topic named `weather`  
 `demo notify weather`
 
-7. Open a third terminal and run the Kafka listener on the topic `weather`
+7. Open a third terminal and run the Kafka listener on the topic `weather`  
 `demo listen weather`  
+
+<br>
+
+![output](data-engineer-demo-diagram.png)
