@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "demo"
+version = "1.0.0"
+description = "Data Engineer demo with Elasticsearch, Logstash, Kafka and Kibana"
+requires-python = ">=3.7"
+classifiers = ["Programming Language :: Python :: 3"]
+dependencies = ["elasticsearch","elasticsearch-async",'confluent-kafka']
+
+[project.scripts]
+demo = "demo.__main__:main"
+
+
+
